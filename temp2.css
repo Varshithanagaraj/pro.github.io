@@ -1,0 +1,77 @@
+.body{
+	display: flex;
+	align-items: center;
+	height: 100px;
+	background-color: rgb(149, 247, 204);
+}
+.main{
+	background-color: rgb(149, 247, 204);
+	height: 610px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.converter-body{
+	padding-top: 15px;
+	width: 490px;
+	height: 400px;
+	box-shadow: 0px 0px 15px 5px #7c7979;
+	background-color: white;
+	border-radius: 20px;
+	background-image: linear-gradient(rgb(248, 124, 124),rgb(244, 244, 127));
+}
+.converter-title{
+	text-align: center;
+	margin: 25px;
+	
+}
+input{
+	height: 30px;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 15px;
+	margin: 7px;
+}
+label{
+	margin-left: 80px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#input{
+	margin-left: 94px;
+}
+#result1{
+	margin-left: 55px;
+}
+#result{
+	height: 30px;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 15px;
+	margin-left: 23px;
+}
+
+.button{
+	margin-top: 35px;
+	margin-left: 150px;
+	width: 120px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 20px;
+	font-weight: bold;
+	background-color: rgb(175, 240, 215);
+}
+.button1{
+	background-color: rgb(201, 246, 229);
+	margin-left: 20px;
+	height: 25px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+.link{
+	margin-left: 180px;
+	word-spacing: 40px;
+	font-weight: bold;
+	font-size: 25px;
+}

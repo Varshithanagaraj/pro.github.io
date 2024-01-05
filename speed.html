@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="speed.css">
+</head>
+<body>
+    <div class="body">
+		<div class="link">
+			<a href="index.html" style="color: rgb(41, 38, 230);">Home</a>
+			<a href="speed.html"style="color: rgb(41, 38, 230);">kmph---mps</a>
+			<a href="speed1.html"style="color: rgb(41, 38, 230);">mps---kmph</a>
+		</div>
+	</div>
+		<div class="main body">
+			<div class="converter-body">
+				<h1 class="converter-title">Speed Conversion </h1>
+				<h3 class="converter-title">Kilometer per hour to Meter per second</h3>
+				<label id="a">Kmph : </label>
+				<input type="text" placeholder="Input" id="input">  <br>
+				<label id="a">Mps : </label>
+				<input type="text" placeholder="Result" id="result">  <br>
+				<button type="button" onclick="convert()" class="button">Convert</button>
+				<button type="submit" onclick="reset()" class="button1">Reset</button>
+			</div>	
+		</div>
+        <script>
+            function convert() {
+                var a =document.getElementById("input").value;
+                var b = a/3.6;
+                document.getElementById("result").value=b;
+            }
+            function reset(){
+                document.getElementById("input").value='';
+                document.getElementById("result").value='';
+            }
+        </script>
+</body>
+</html>
